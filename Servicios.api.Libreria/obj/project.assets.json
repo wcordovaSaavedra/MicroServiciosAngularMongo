@@ -1200,11 +1200,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Microservicios\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj",
+      "projectUniqueName": "C:\\MicroServiciosAngularMongo\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj",
       "projectName": "Servicios.api.Libreria",
-      "projectPath": "C:\\Microservicios\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj",
+      "projectPath": "C:\\MicroServiciosAngularMongo\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj",
       "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-      "outputPath": "C:\\Microservicios\\Servicios.api.Libreria\\obj\\",
+      "outputPath": "C:\\MicroServiciosAngularMongo\\Servicios.api.Libreria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",

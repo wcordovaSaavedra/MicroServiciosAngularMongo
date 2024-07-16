@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OH343bbkhLqPvRqyTCmHAr8nQCcz+lFZOTnU0QGq5uF9DVdpFN2AByacDmYFjrzCDLujbONHaULVUiLZUu+g6Q==",
+  "dgSpecHash": "gGjaWnYi08ROkalZg2tXAE9UpA7dNirF8VyNqoPbPdnC5JGsHjhjLK2DGgAoQZAg6PH8Xe1qiso/6nSPxkRhlA==",
   "success": true,
-  "projectFilePath": "C:\\Microservicios\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj",
+  "projectFilePath": "C:\\MicroServiciosAngularMongo\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rober\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
