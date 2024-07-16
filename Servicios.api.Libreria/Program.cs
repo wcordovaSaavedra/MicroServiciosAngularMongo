@@ -4,6 +4,8 @@ using Servicios.api.Libreria.Core.ContextMongoDB;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+//Crea la configuracion de la aplicacion
 builder.Configuration
     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
     .AddEnvironmentVariables()
