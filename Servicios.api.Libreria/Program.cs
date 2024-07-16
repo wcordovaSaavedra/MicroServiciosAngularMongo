@@ -1,5 +1,6 @@
 using Servicios.api.Libreria.Core;
 using Servicios.api.Libreria.Core.ContextMongoDB;
+using Servicios.api.Libreria.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +26,8 @@ builder.Services.Configure<MongoSettings>(
 
 builder.Services.AddSingleton<MongoSettings>();
 builder.Services.AddTransient<IAutorContext, AutorContext>();
+builder.Services.AddTransient<IAutorRepository, AutorRepository>();
+builder.Services.AddScoped(typeof(IMongoRepository<>), typeof(MongoRepository<>));
 
 
 
