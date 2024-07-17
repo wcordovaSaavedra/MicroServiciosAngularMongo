@@ -25,5 +25,32 @@ namespace Servicios.api.Libreria.Controllers
             var autores = await _autorGenericoRepository.GetAll();
             return Ok(autores);
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<AutorEntity>> GetById(string id)
+        {
+
+            var autor = await _autorGenericoRepository.GetById(id);
+            return Ok(autor);
+        }
+        [HttpPost]
+        public async Task Post(AutorEntity autor)
+        {
+            await _autorGenericoRepository.InsertDocument(autor);
+
+        }
+
+        [HttpPut("{id}")]
+        public async Task Put(string id, AutorEntity autor)
+        {
+            autor.Id = id;
+            await _autorGenericoRepository.UpdateDocument(autor);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task Delete(string id)
+        {
+            await _autorGenericoRepository.DeleteById(id);
+        }
     }
 }
