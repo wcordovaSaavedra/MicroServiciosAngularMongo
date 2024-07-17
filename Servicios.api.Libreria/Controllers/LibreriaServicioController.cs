@@ -52,5 +52,10 @@ namespace Servicios.api.Libreria.Controllers
         {
             await _autorGenericoRepository.DeleteById(id);
         }
+
+
+
+
+
     }
 }
